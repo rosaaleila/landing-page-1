@@ -30,26 +30,43 @@ main {
 }
 
 h1 {
-    font-size: clamp(20px, 8vw, 100px);
+    font-size: clamp(20px, 8vw, 90px);
     font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
+    font-weight: 500;
+}
+
+hr {
+    width: clamp(50vw, 50vw, 50vw);
 }
 
 .descricao {
-    font-size: clamp(15px, 4vw, 50px);
+    font-size: clamp(15px, 4vw, 35px);
     font-style: italic;
-    font-weight: 400;
+    font-weight: 300;
     font-family: 'Montserrat', sans-serif;
 }
 
-#saiba-mais {
-    width: 180px;
+a {
+    text-decoration: none;
+    color: #26211f;
+}
+
+#botoes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.redes {
+    size: clamp(20px, 5vw, 30px);
+    width: 120px;
     height: 40px;
     background-color: #dbc0ad;
     border-style: none;
-    border-radius: 25px;
-    cursor: pointer;
-    margin-top: 15px;
+    border-radius: 20px;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-left: 20px;
 }
